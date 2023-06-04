@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6F790AFA-9922-46FC-8736-44F90D7E1F13"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E8A7C4A-BD3D-4C21-AE86-34C79E8DB3B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/ReRegisterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewId"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD1F08D6-B509-4D36-ACDD-9963CC510183"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "sendRequest(api:pNumber:custid:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD1F08D6-B509-4D36-ACDD-9963CC510183 - 8a0b04134d90d506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.MainView.sendRequest(api: Swift.String, pNumber: Swift.String, custid: Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "CD1F08D6-B509-4D36-ACDD-9963CC510183 - 8a0b04134d90d5a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.MainView.sendRequest(api: Swift.String, pNumber: Swift.String, custid: Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F04FAE06-FAF6-450A-A4AC-0C37EEE62083"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "sendRequest(api:pNumber:custid:compiltion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCC54A26-B720-4D87-9690-DB7FE1625380"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "handleScan(result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BCC54A26-B720-4D87-9690-DB7FE1625380 - 3488c6baa649107f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "BCC54A26-B720-4D87-9690-DB7FE1625380 - 1ea4fc2248b0461b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  uuid = "BCC54A26-B720-4D87-9690-DB7FE1625380 - 3488c6baa6491180"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "handleScan(result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - a7c13d0d71e6f179"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - 3488c6baa6491f13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - a7c13d0d71e6ff68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - 3488c6baa6491104"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - a7c13d0d71e6ff68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "369">
+               </Location>
+               <Location
+                  uuid = "79B58E89-593A-4AA2-8622-6188B2B65EB3 - 3488c6baa6491104"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in PassportWebView.IdentifyView.handleScan(result: Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46E667E4-05BF-4104-8EF7-521DECCD5A90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "sendRequest(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46E667E4-05BF-4104-8EF7-521DECCD5A90 - 50289c12589a4aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendRequest(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "46E667E4-05BF-4104-8EF7-521DECCD5A90 - 50289c12589a4aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendRequest(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "769">
+               </Location>
+               <Location
+                  uuid = "46E667E4-05BF-4104-8EF7-521DECCD5A90 - 50289c12589a4f3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendRequest(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "46E667E4-05BF-4104-8EF7-521DECCD5A90 - 50289c12589a52c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendRequest(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3937D1C-0610-409E-B072-242E149A3924"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "432"
+            endingLineNumber = "432"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B7E79E0-33DF-4F73-AA78-6390A2232348"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "sendRequest(api:pNumber:custid:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B7E79E0-33DF-4F73-AA78-6390A2232348 - 37863af234b5f49f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.MainView.sendRequest(api: Swift.String, pNumber: Swift.String, custid: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "912">
+               </Location>
+               <Location
+                  uuid = "8B7E79E0-33DF-4F73-AA78-6390A2232348 - 37863af234b5f49f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.MainView.sendRequest(api: Swift.String, pNumber: Swift.String, custid: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "822">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCFAB1E3-26D5-4159-864F-1BBB9ECA6A5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Models/SettingsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "userInfo"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E57FD8DC-A345-4E48-AEEA-6467DC812212"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Models/SettingsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "userInfo"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3B860DF-A0B8-4EE5-BA91-ED9975BAF3E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Models/SettingsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "userInfo"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C3B860DF-A0B8-4EE5-BA91-ED9975BAF3E7 - 4d1b85f62fb52955"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.SettingsStore.userInfo.getter : PassportWebView.UserInfo"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Models/SettingsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "C3B860DF-A0B8-4EE5-BA91-ED9975BAF3E7 - 4d1b85f62fb52955"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.SettingsStore.userInfo.getter : PassportWebView.UserInfo"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Models/SettingsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3226DFC4-0221-488E-9CA8-A7B408520C60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Models/SettingsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "userInfo"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3226DFC4-0221-488E-9CA8-A7B408520C60 - 4d1b85f62fb52976"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.SettingsStore.userInfo.getter : PassportWebView.UserInfo"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Models/SettingsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "3226DFC4-0221-488E-9CA8-A7B408520C60 - 4d1b85f62fb52976"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.SettingsStore.userInfo.getter : PassportWebView.UserInfo"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Models/SettingsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5741F759-CA12-437B-AC44-6933C4784303"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/EnterPhoneNumberView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "submitButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA70B884-3A32-479D-99C8-6E7CF645B3B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/EnterPhoneNumberView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "submitButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A471E2C-1E8E-40E4-A5DA-8ABACD54C822"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "handleScan(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00C14C39-D0D9-4FDD-9036-20F9A617791B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A75D7D4-F6DB-4305-A122-77519D25A2FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/PassportWebViewApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9A75D7D4-F6DB-4305-A122-77519D25A2FB - d990b5362dca6cf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Foundation.URL) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onOpenURL(perform: (Foundation.URL) -&gt; ()) -&gt; some&gt;&gt;.0 in PassportWebView.PassportWebViewApp.body.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/PassportWebViewApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1712">
+               </Location>
+               <Location
+                  uuid = "9A75D7D4-F6DB-4305-A122-77519D25A2FB - d990b5362dca6cf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Foundation.URL) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onOpenURL(perform: (Foundation.URL) -&gt; ()) -&gt; some&gt;&gt;.0 in PassportWebView.PassportWebViewApp.body.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/PassportWebViewApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "9A75D7D4-F6DB-4305-A122-77519D25A2FB - adaf9f1ac324a82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URLQueryItem) -&gt; Swift.Bool in closure #1 () -&gt; () in closure #1 (Foundation.URL) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onOpenURL(perform: (Foundation.URL) -&gt; ()) -&gt; some&gt;&gt;.0 in PassportWebView.PassportWebViewApp.body.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/PassportWebViewApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76B3041C-BC0F-4861-AD02-B994D2937EA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76B3041C-BC0F-4861-AD02-B994D2937EA2 - 391f09e12aa9075b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in PassportWebView.IdentifyView.startTimer() -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "76B3041C-BC0F-4861-AD02-B994D2937EA2 - 3e4516e572ae7368"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in PassportWebView.IdentifyView.startTimer() -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "76B3041C-BC0F-4861-AD02-B994D2937EA2 - 391f09e12aa90724"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in PassportWebView.IdentifyView.startTimer() -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30D73286-E877-4A51-ABB2-4B2919ADD406"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA7B0D13-D098-4080-BF94-3DDA81E89C64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA7B0D13-D098-4080-BF94-3DDA81E89C64 - 2521260536204a09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "1868">
+               </Location>
+               <Location
+                  uuid = "BA7B0D13-D098-4080-BF94-3DDA81E89C64 - 2636f1b0f22e5926"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64EDB9E8-381E-4D55-A5AC-38D3FCD97393"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64EDB9E8-381E-4D55-A5AC-38D3FCD97393 - 2636f1b0f22e4641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "64EDB9E8-381E-4D55-A5AC-38D3FCD97393 - 2636f1b0f22e4641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "64EDB9E8-381E-4D55-A5AC-38D3FCD97393 - 237c01d2c0f5b268"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "64EDB9E8-381E-4D55-A5AC-38D3FCD97393 - 237c01d2c0f5b268"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0 - 2636f1b0f22e59a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "518529D8-C557-45F4-8AE6-59F0DC0C17E0 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DE55E04-7121-4DC3-AA41-BE424D223D42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DE55E04-7121-4DC3-AA41-BE424D223D42 - 2521260536204bcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "1844">
+               </Location>
+               <Location
+                  uuid = "2DE55E04-7121-4DC3-AA41-BE424D223D42 - 37dc1643a82b6962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "1844">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EDBACE9-8D6B-4E73-BCAC-C7AA4ADD67C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "137FCDE9-DA6A-4C52-BB67-674442583F56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "sendReqWithJeson(api:code:keyName:compiltion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "137FCDE9-DA6A-4C52-BB67-674442583F56 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "137FCDE9-DA6A-4C52-BB67-674442583F56 - 237c01d2c0f5ad8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PassportWebView.IdentifyView.sendReqWithJeson(api: Swift.String, code: Swift.String, keyName: Swift.String, compiltion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E8D1B1F-3834-4F52-9387-CA59ED0E489B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "489745FA-FD41-44BA-AF02-1F0A78B0075E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "stopTimer(number:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB586D88-9E66-45C4-BA9F-6E625EBB49CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "stopTimer(number:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C99C88D-78FB-4F2D-8424-C742EC73CCE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "stopTimer(number:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C99C88D-78FB-4F2D-8424-C742EC73CCE0 - cc11f6bdfeb27fae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.stopTimer(number: Swift.Int) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  uuid = "4C99C88D-78FB-4F2D-8424-C742EC73CCE0 - cc11f6bdfeb27cd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.IdentifyView.stopTimer(number: Swift.Int) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/IdentifyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9D2FC81-5637-4804-B8DE-5F4FF2682097"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/IdentifyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AC8D0F6-25D7-4CEA-A066-34A1DF6785B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "450"
+            endingLineNumber = "450"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E5E5A00-8183-4FE6-A86D-6234FF7E8C21"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E5E5A00-8183-4FE6-A86D-6234FF7E8C21 - 1ca99b0692d54edd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.MainView.webViewMessage(message: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "397"
+                  endingLineNumber = "397"
+                  offsetFromSymbolStart = "13620">
+               </Location>
+               <Location
+                  uuid = "4E5E5A00-8183-4FE6-A86D-6234FF7E8C21 - 1ca99b0692d54edd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.MainView.webViewMessage(message: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "397"
+                  endingLineNumber = "397"
+                  offsetFromSymbolStart = "13624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F72A98E5-10E4-4CA4-98DA-965FB93A5078"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Service/RegisterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "hitRegistrationApi(successResult:failureResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8762BD1E-1BB6-4E04-B15E-26B2B6437F7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Service/RegisterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "hitRegistrationApi(successResult:failureResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22C5BE26-7C77-4DE4-A02F-6FB7032380EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Service/RegisterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "hitReRegistrationApi(successResult:failureResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E08ACA9-EFD0-4F6F-AE48-DAABFF1261FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Service/RegisterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "hitRegistrationApi(successResult:failureResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34D41D9E-3EE0-4CD0-B194-983DE47F7655"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Service/RegisterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "hitRegistrationApi(successResult:failureResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09F4D454-488A-4B45-8F73-357C72AE05ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "229591A8-BBD8-42A6-8257-A529CA3C8FB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - dff059e09b0d1634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 245016798498449"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 6ab94bd0e988d33a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 4006c22926ca32b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - dff059e09b0d1676"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 24501679849840b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 6ab94bd0e988d378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "3E3A20B3-47DA-44A8-8C9A-7DFA1B6B7060 - 4006c22926ca32fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d2b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d33a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d6b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "1816">
+               </Location>
+               <Location
+                  uuid = "7B48DA4C-DD8B-4B7A-ABDA-08C191938FE7 - 6ab94bd0e988d9d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "212"
+                  endingLineNumber = "212"
+                  offsetFromSymbolStart = "2516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A422D363-F608-489A-B8DC-B710667617D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B59FE2A-4FB8-41B3-B5AA-6B0EDEC31EF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F8E71CB-F624-4B17-A6DF-AC4E1FF6B461"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "011E078B-216E-45EC-BA1F-A716C14EFF8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98A12FB1-3606-42D3-9C09-C3A9A7C89B14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5B6ABE5-1B39-48C3-BDCF-698E0F7F148F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64067CEE-0080-4A36-9197-B7F34EC9C636"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB41C376-634F-4941-8258-1A2A1EF85A2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB41C376-634F-4941-8258-1A2A1EF85A2D - 6ab94bd0e988d2d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "1768">
+               </Location>
+               <Location
+                  uuid = "FB41C376-634F-4941-8258-1A2A1EF85A2D - ea5e20bf85c962de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "186975A0-7343-4BEC-A3D9-DEB60CF443FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51AEC29C-792E-48E9-B83E-7C3FD5CA9E4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51AEC29C-792E-48E9-B83E-7C3FD5CA9E4F - dff059e09b0d1676"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "51AEC29C-792E-48E9-B83E-7C3FD5CA9E4F - 24501679849840b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "51AEC29C-792E-48E9-B83E-7C3FD5CA9E4F - 6ab94bd0e988d378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "51AEC29C-792E-48E9-B83E-7C3FD5CA9E4F - 4006c22926ca32fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70C96969-CCFC-48D1-8D86-8475215124A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "readPassport(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E4A17B1-DFE5-4D32-9A27-AFAF4C44BB2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "readDataGroups(tagReader:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E4A17B1-DFE5-4D32-9A27-AFAF4C44BB2C - 80ff2410a4673c53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NFCPassportReader.PassportReader.readDataGroups(tagReader: NFCPassportReader.TagReader) async throws -&gt; ()"
+                  moduleName = "NFCPassportReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "301"
+                  endingLineNumber = "301"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "1E4A17B1-DFE5-4D32-9A27-AFAF4C44BB2C - e3dd93d6796e90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; NFCPassportReader.DataGroupId in NFCPassportReader.PassportReader.readDataGroups(tagReader: NFCPassportReader.TagReader) async throws -&gt; ()"
+                  moduleName = "NFCPassportReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "301"
+                  endingLineNumber = "301"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06BC0610-4B7B-4109-9B66-7376FBAF5645"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "readDataGroups(tagReader:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C51F7A2F-03D3-44EE-A474-FD18E6FEBECD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "readDataGroups(tagReader:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6C4570E-BDB6-4905-B6A9-30549DFE969A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6C4570E-BDB6-4905-B6A9-30549DFE969A - 46c765e0ac8f830d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFCPassportReader.SOD.parse(Swift.Array&lt;Swift.UInt8&gt;) throws -&gt; ()"
+                  moduleName = "NFCPassportReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E6C4570E-BDB6-4905-B6A9-30549DFE969A - 46c765e0ac8f80cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFCPassportReader.SOD.parse(Swift.Array&lt;Swift.UInt8&gt;) throws -&gt; ()"
+                  moduleName = "NFCPassportReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A26F5CD4-EEC0-4ECC-82ED-2B337F929594"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3578C59-0DCB-464F-9F98-DA2FC72D5B6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E9A9D04-2CE7-4AE1-AEB7-E04D3520EFCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3E9A9D04-2CE7-4AE1-AEB7-E04D3520EFCD - 6ab94bd0e988d568"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1944">
+               </Location>
+               <Location
+                  uuid = "3E9A9D04-2CE7-4AE1-AEB7-E04D3520EFCD - 6ab94bd0e988d568"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PassportWebView.MainView.readPassportNFC(Swift.String, Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57319B75-9EC6-4CB1-82EF-01EE400C58C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "parseISO19794_5(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED41A4DE-DB61-4C96-AF3E-12D40DCA2F69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4795A438-C663-4AD7-89DD-80E2159A09C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1BFF33B-5810-4DD5-B626-61D2F94182AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "byteArryToBase64(array:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D70EEA99-0C15-499E-AC40-AE3721673D53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "byteArryToBase64(array:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1FB5097-49DC-4DC0-AE00-B8956FCBAFC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "byteArryToBase64(array:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1DC244F-0759-449A-8DF3-47C73BAECDE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84C30172-6DC9-4B43-B743-DA3A356DCE6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "webViewMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FF6DAFC-E37A-4DDB-84C6-C163C9784C4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "readPassportNFC(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C47D82DA-82F6-4323-8938-11F303C6E10E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassportWebView/Controllers/ReRegisterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewId"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C47D82DA-82F6-4323-8938-11F303C6E10E - 7b4a206e967faf8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportWebView.ReRegisterView.viewId.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/ReRegisterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C47D82DA-82F6-4323-8938-11F303C6E10E - b746f02107e865f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in PassportWebView.ReRegisterView.viewId.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/ReRegisterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "C47D82DA-82F6-4323-8938-11F303C6E10E - b746f02107e86590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in PassportWebView.ReRegisterView.viewId.getter : some"
+                  moduleName = "PassportWebView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liranbenhaim/Desktop/iOS/PassportWebView_swiftUI-main/PassportWebView/Controllers/ReRegisterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

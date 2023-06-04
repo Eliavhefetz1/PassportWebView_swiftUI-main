@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19FB44299E2F17A51C702630 /* Pods_PassportWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B92E91DBB650FA2E8DE7B5 /* Pods_PassportWebView.framework */; };
+		4399B48E2938A25300AA3877 /* PassportWebViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B48D2938A25300AA3877 /* PassportWebViewApp.swift */; };
+		4399B4902938A25300AA3877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B48F2938A25300AA3877 /* ContentView.swift */; };
+		4399B4922938A25400AA3877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4399B4912938A25400AA3877 /* Assets.xcassets */; };
+		4399B4952938A25400AA3877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4399B4942938A25400AA3877 /* Preview Assets.xcassets */; };
+		4399B4B2293A2EF200AA3877 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4B1293A2EF200AA3877 /* RoutingView.swift */; };
+		4399B4B4293A2F2F00AA3877 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4B3293A2F2F00AA3877 /* Router.swift */; };
+		4399B4B6293A342200AA3877 /* ReRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4B5293A342200AA3877 /* ReRegisterView.swift */; };
+		4399B4B8293A347200AA3877 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4B7293A347200AA3877 /* SuccessView.swift */; };
+		4399B4BA293A349600AA3877 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4B9293A349600AA3877 /* FailedView.swift */; };
+		4399B4BE293A34B600AA3877 /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4BD293A34B600AA3877 /* ThumbView.swift */; };
+		4399B4C0293A354200AA3877 /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4BF293A354200AA3877 /* CycleView.swift */; };
+		4399B4C2293A356C00AA3877 /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C1293A356C00AA3877 /* WebContentView.swift */; };
+		4399B4C4293A357900AA3877 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C3293A357900AA3877 /* MainView.swift */; };
+		4399B4CB293A386C00AA3877 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C6293A386C00AA3877 /* UIImageExt.swift */; };
+		4399B4CC293A386C00AA3877 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C7293A386C00AA3877 /* UIDeviceExt.swift */; };
+		4399B4CD293A386C00AA3877 /* UIViewController+storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C8293A386C00AA3877 /* UIViewController+storyboard.swift */; };
+		4399B4CE293A386C00AA3877 /* UIAlertControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4C9293A386C00AA3877 /* UIAlertControllerExt.swift */; };
+		4399B4CF293A386C00AA3877 /* FileManagerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4CA293A386C00AA3877 /* FileManagerExt.swift */; };
+		4399B4D4293A38D800AA3877 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4D1293A38D800AA3877 /* Reachability.swift */; };
+		4399B4D5293A38D800AA3877 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4D2293A38D800AA3877 /* SceneDelegate.swift */; };
+		4399B4D6293A38D800AA3877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4D3293A38D800AA3877 /* AppDelegate.swift */; };
+		4399B4DB293A391300AA3877 /* PassportUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4D8293A391200AA3877 /* PassportUtils.swift */; };
+		4399B4DC293A391300AA3877 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4D9293A391200AA3877 /* LocalStorageManager.swift */; };
+		4399B4DD293A391300AA3877 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399B4DA293A391300AA3877 /* SettingsStore.swift */; };
+		43B1E090293AE49900DACA08 /* failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E079293AE49800DACA08 /* failed.png */; };
+		43B1E091293AE49900DACA08 /* closeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07A293AE49800DACA08 /* closeBtn.png */; };
+		43B1E092293AE49900DACA08 /* radio2Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07B293AE49800DACA08 /* radio2Btn.png */; };
+		43B1E093293AE49900DACA08 /* radioBtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07C293AE49800DACA08 /* radioBtn2.png */; };
+		43B1E094293AE49900DACA08 /* re-registerName.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07D293AE49800DACA08 /* re-registerName.png */; };
+		43B1E095293AE49900DACA08 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07E293AE49800DACA08 /* Register.png */; };
+		43B1E096293AE49900DACA08 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E07F293AE49800DACA08 /* success.png */; };
+		43B1E097293AE49900DACA08 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E080293AE49800DACA08 /* thumb.png */; };
+		43B1E098293AE49900DACA08 /* re-register.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E081293AE49800DACA08 /* re-register.png */; };
+		43B1E099293AE49900DACA08 /* radio1Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E082293AE49800DACA08 /* radio1Btn.png */; };
+		43B1E09A293AE49900DACA08 /* radio2Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E083293AE49800DACA08 /* radio2Text.png */; };
+		43B1E09B293AE49900DACA08 /* radioBtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E084293AE49800DACA08 /* radioBtn1.png */; };
+		43B1E09C293AE49900DACA08 /* radio1Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E085293AE49900DACA08 /* radio1Text.png */; };
+		43B1E09D293AE49900DACA08 /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E086293AE49900DACA08 /* return.png */; };
+		43B1E09E293AE49900DACA08 /* mobile2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E087293AE49900DACA08 /* mobile2.png */; };
+		43B1E09F293AE49900DACA08 /* greenBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E088293AE49900DACA08 /* greenBtn.png */; };
+		43B1E0A0293AE49900DACA08 /* buttonName.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E089293AE49900DACA08 /* buttonName.png */; };
+		43B1E0A1293AE49900DACA08 /* ReRegister.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08A293AE49900DACA08 /* ReRegister.png */; };
+		43B1E0A2293AE49900DACA08 /* popupBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08B293AE49900DACA08 /* popupBtn.png */; };
+		43B1E0A3293AE49900DACA08 /* mobile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08C293AE49900DACA08 /* mobile1.png */; };
+		43B1E0A4293AE49900DACA08 /* cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08D293AE49900DACA08 /* cycle.png */; };
+		43B1E0A5293AE49900DACA08 /* checkIdName.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08E293AE49900DACA08 /* checkIdName.png */; };
+		43B1E0A6293AE49900DACA08 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B1E08F293AE49900DACA08 /* logo.png */; };
+		43B1E0A9293AEEBC00DACA08 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1E0A8293AEEBC00DACA08 /* RegisterService.swift */; };
+		43B1E0AB293B0B5300DACA08 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1E0AA293B0B5300DACA08 /* WebView.swift */; };
+		D42C59322A270B7A00308AF5 /* thumbWithoutText.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C59312A270B7A00308AF5 /* thumbWithoutText.png */; };
+		D42C59342A270BA100308AF5 /* failedWithoutText.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C59332A270BA100308AF5 /* failedWithoutText.png */; };
+		D45731212A1CAB600043F0ED /* viewDocumentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45731202A1CAB600043F0ED /* viewDocumentation.swift */; };
+		D45731232A1CADC80043F0ED /* top_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D45731222A1CADC80043F0ED /* top_background.png */; };
+		D45731252A1CAE970043F0ED /* Arrow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = D45731242A1CAE970043F0ED /* Arrow-Left.png */; };
+		D45731292A1CC5E80043F0ED /* SringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45731282A1CC5E80043F0ED /* SringExt.swift */; };
+		D457312F2A1CCD6D0043F0ED /* background_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D457312E2A1CCD6D0043F0ED /* background_logo.png */; };
+		D45731312A1CCD870043F0ED /* isrf.png in Resources */ = {isa = PBXBuildFile; fileRef = D45731302A1CCD870043F0ED /* isrf.png */; };
+		D45731332A1CE5400043F0ED /* EnterPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45731322A1CE5400043F0ED /* EnterPhoneNumberView.swift */; };
+		D466D9162A1E471C00C0F9D7 /* IdentifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466D9152A1E471C00C0F9D7 /* IdentifyView.swift */; };
+		D466D9192A1E494900C0F9D7 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = D466D9182A1E494900C0F9D7 /* CodeScanner */; };
+		D4BE3886293F4C9200588FF1 /* masterList.pem in Resources */ = {isa = PBXBuildFile; fileRef = D4BE3885293F4C9200588FF1 /* masterList.pem */; };
+		EC2B733C29505F070012006C /* binaeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2B733B29505F070012006C /* binaeLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27B92E91DBB650FA2E8DE7B5 /* Pods_PassportWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassportWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4399B48A2938A25300AA3877 /* PassportWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassportWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4399B48D2938A25300AA3877 /* PassportWebViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportWebViewApp.swift; sourceTree = "<group>"; };
+		4399B48F2938A25300AA3877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4399B4912938A25400AA3877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4399B4942938A25400AA3877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4399B4A22938A4D800AA3877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4399B4A52938A8D000AA3877 /* PassportReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassportReader.entitlements; sourceTree = "<group>"; };
+		4399B4B1293A2EF200AA3877 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		4399B4B3293A2F2F00AA3877 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4399B4B5293A342200AA3877 /* ReRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReRegisterView.swift; sourceTree = "<group>"; };
+		4399B4B7293A347200AA3877 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		4399B4B9293A349600AA3877 /* FailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
+		4399B4BD293A34B600AA3877 /* ThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
+		4399B4BF293A354200AA3877 /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		4399B4C1293A356C00AA3877 /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
+		4399B4C3293A357900AA3877 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4399B4C6293A386C00AA3877 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		4399B4C7293A386C00AA3877 /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
+		4399B4C8293A386C00AA3877 /* UIViewController+storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+storyboard.swift"; sourceTree = "<group>"; };
+		4399B4C9293A386C00AA3877 /* UIAlertControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExt.swift; sourceTree = "<group>"; };
+		4399B4CA293A386C00AA3877 /* FileManagerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExt.swift; sourceTree = "<group>"; };
+		4399B4D1293A38D800AA3877 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4399B4D2293A38D800AA3877 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4399B4D3293A38D800AA3877 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4399B4D8293A391200AA3877 /* PassportUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportUtils.swift; sourceTree = "<group>"; };
+		4399B4D9293A391200AA3877 /* LocalStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		4399B4DA293A391300AA3877 /* SettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		43B1E079293AE49800DACA08 /* failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failed.png; sourceTree = "<group>"; };
+		43B1E07A293AE49800DACA08 /* closeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBtn.png; sourceTree = "<group>"; };
+		43B1E07B293AE49800DACA08 /* radio2Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio2Btn.png; sourceTree = "<group>"; };
+		43B1E07C293AE49800DACA08 /* radioBtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioBtn2.png; sourceTree = "<group>"; };
+		43B1E07D293AE49800DACA08 /* re-registerName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "re-registerName.png"; sourceTree = "<group>"; };
+		43B1E07E293AE49800DACA08 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
+		43B1E07F293AE49800DACA08 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		43B1E080293AE49800DACA08 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		43B1E081293AE49800DACA08 /* re-register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "re-register.png"; sourceTree = "<group>"; };
+		43B1E082293AE49800DACA08 /* radio1Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio1Btn.png; sourceTree = "<group>"; };
+		43B1E083293AE49800DACA08 /* radio2Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio2Text.png; sourceTree = "<group>"; };
+		43B1E084293AE49800DACA08 /* radioBtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioBtn1.png; sourceTree = "<group>"; };
+		43B1E085293AE49900DACA08 /* radio1Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio1Text.png; sourceTree = "<group>"; };
+		43B1E086293AE49900DACA08 /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return.png; sourceTree = "<group>"; };
+		43B1E087293AE49900DACA08 /* mobile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile2.png; sourceTree = "<group>"; };
+		43B1E088293AE49900DACA08 /* greenBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBtn.png; sourceTree = "<group>"; };
+		43B1E089293AE49900DACA08 /* buttonName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonName.png; sourceTree = "<group>"; };
+		43B1E08A293AE49900DACA08 /* ReRegister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReRegister.png; sourceTree = "<group>"; };
+		43B1E08B293AE49900DACA08 /* popupBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupBtn.png; sourceTree = "<group>"; };
+		43B1E08C293AE49900DACA08 /* mobile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile1.png; sourceTree = "<group>"; };
+		43B1E08D293AE49900DACA08 /* cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycle.png; sourceTree = "<group>"; };
+		43B1E08E293AE49900DACA08 /* checkIdName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkIdName.png; sourceTree = "<group>"; };
+		43B1E08F293AE49900DACA08 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		43B1E0A8293AEEBC00DACA08 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		43B1E0AA293B0B5300DACA08 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B44BFDCA085A415AB3C64192 /* Pods-PassportWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassportWebView.release.xcconfig"; path = "Target Support Files/Pods-PassportWebView/Pods-PassportWebView.release.xcconfig"; sourceTree = "<group>"; };
+		BE9F50DE987B2362D7614DE1 /* Pods-PassportWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassportWebView.debug.xcconfig"; path = "Target Support Files/Pods-PassportWebView/Pods-PassportWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		D42C59312A270B7A00308AF5 /* thumbWithoutText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbWithoutText.png; sourceTree = "<group>"; };
+		D42C59332A270BA100308AF5 /* failedWithoutText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failedWithoutText.png; sourceTree = "<group>"; };
+		D45731202A1CAB600043F0ED /* viewDocumentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewDocumentation.swift; sourceTree = "<group>"; };
+		D45731222A1CADC80043F0ED /* top_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_background.png; path = ../../../Card/Card/assets/top_background.png; sourceTree = "<group>"; };
+		D45731242A1CAE970043F0ED /* Arrow-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow-Left.png"; path = "../../../Card/Card/assets/Arrow-Left.png"; sourceTree = "<group>"; };
+		D45731282A1CC5E80043F0ED /* SringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SringExt.swift; sourceTree = "<group>"; };
+		D457312E2A1CCD6D0043F0ED /* background_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_logo.png; path = ../../../Card/Card/assets/background_logo.png; sourceTree = "<group>"; };
+		D45731302A1CCD870043F0ED /* isrf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isrf.png; path = ../../../Card/Card/assets/isrf.png; sourceTree = "<group>"; };
+		D45731322A1CE5400043F0ED /* EnterPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneNumberView.swift; sourceTree = "<group>"; };
+		D466D9152A1E471C00C0F9D7 /* IdentifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyView.swift; sourceTree = "<group>"; };
+		D4BE3885293F4C9200588FF1 /* masterList.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = masterList.pem; sourceTree = "<group>"; };
+		D4BE3887293F63D100588FF1 /* PassportWebView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassportWebView.entitlements; sourceTree = "<group>"; };
+		EC2B733B29505F070012006C /* binaeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = binaeLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4399B4872938A25300AA3877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466D9192A1E494900C0F9D7 /* CodeScanner in Frameworks */,
+				19FB44299E2F17A51C702630 /* Pods_PassportWebView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F35AE4678CF95B479C6DA90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE9F50DE987B2362D7614DE1 /* Pods-PassportWebView.debug.xcconfig */,
+				B44BFDCA085A415AB3C64192 /* Pods-PassportWebView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4399B4812938A25300AA3877 = {
+			isa = PBXGroup;
+			children = (
+				4399B48C2938A25300AA3877 /* PassportWebView */,
+				4399B48B2938A25300AA3877 /* Products */,
+				2F35AE4678CF95B479C6DA90 /* Pods */,
+				51418A306E1E7CBE064DC6A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4399B48B2938A25300AA3877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4399B48A2938A25300AA3877 /* PassportWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4399B48C2938A25300AA3877 /* PassportWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D4BE3887293F63D100588FF1 /* PassportWebView.entitlements */,
+				D4BE3885293F4C9200588FF1 /* masterList.pem */,
+				43B1E0A7293AEEA800DACA08 /* Service */,
+				43B1E078293AE46900DACA08 /* assets */,
+				4399B4D7293A390500AA3877 /* Models */,
+				4399B4D0293A38C700AA3877 /* Supportings */,
+				4399B4C5293A385D00AA3877 /* Extensions */,
+				4399B4AE2939FF2900AA3877 /* Controllers */,
+				4399B4A52938A8D000AA3877 /* PassportReader.entitlements */,
+				4399B4A22938A4D800AA3877 /* Info.plist */,
+				4399B48D2938A25300AA3877 /* PassportWebViewApp.swift */,
+				4399B48F2938A25300AA3877 /* ContentView.swift */,
+				4399B4912938A25400AA3877 /* Assets.xcassets */,
+				4399B4932938A25400AA3877 /* Preview Content */,
+				4399B4B1293A2EF200AA3877 /* RoutingView.swift */,
+				4399B4B3293A2F2F00AA3877 /* Router.swift */,
+			);
+			path = PassportWebView;
+			sourceTree = "<group>";
+		};
+		4399B4932938A25400AA3877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4399B4942938A25400AA3877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4399B4AE2939FF2900AA3877 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4399B4B5293A342200AA3877 /* ReRegisterView.swift */,
+				4399B4B7293A347200AA3877 /* SuccessView.swift */,
+				4399B4B9293A349600AA3877 /* FailedView.swift */,
+				4399B4BD293A34B600AA3877 /* ThumbView.swift */,
+				4399B4BF293A354200AA3877 /* CycleView.swift */,
+				4399B4C1293A356C00AA3877 /* WebContentView.swift */,
+				4399B4C3293A357900AA3877 /* MainView.swift */,
+				D45731202A1CAB600043F0ED /* viewDocumentation.swift */,
+				D45731322A1CE5400043F0ED /* EnterPhoneNumberView.swift */,
+				D466D9152A1E471C00C0F9D7 /* IdentifyView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4399B4C5293A385D00AA3877 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4399B4CA293A386C00AA3877 /* FileManagerExt.swift */,
+				4399B4C9293A386C00AA3877 /* UIAlertControllerExt.swift */,
+				4399B4C7293A386C00AA3877 /* UIDeviceExt.swift */,
+				4399B4C6293A386C00AA3877 /* UIImageExt.swift */,
+				4399B4C8293A386C00AA3877 /* UIViewController+storyboard.swift */,
+				43B1E0AA293B0B5300DACA08 /* WebView.swift */,
+				D45731282A1CC5E80043F0ED /* SringExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4399B4D0293A38C700AA3877 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				4399B4D3293A38D800AA3877 /* AppDelegate.swift */,
+				4399B4D1293A38D800AA3877 /* Reachability.swift */,
+				4399B4D2293A38D800AA3877 /* SceneDelegate.swift */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		4399B4D7293A390500AA3877 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4399B4D9293A391200AA3877 /* LocalStorageManager.swift */,
+				4399B4D8293A391200AA3877 /* PassportUtils.swift */,
+				4399B4DA293A391300AA3877 /* SettingsStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43B1E078293AE46900DACA08 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				43B1E089293AE49900DACA08 /* buttonName.png */,
+				43B1E08E293AE49900DACA08 /* checkIdName.png */,
+				43B1E07A293AE49800DACA08 /* closeBtn.png */,
+				43B1E08D293AE49900DACA08 /* cycle.png */,
+				43B1E079293AE49800DACA08 /* failed.png */,
+				43B1E088293AE49900DACA08 /* greenBtn.png */,
+				43B1E08F293AE49900DACA08 /* logo.png */,
+				EC2B733B29505F070012006C /* binaeLogo.png */,
+				D45731242A1CAE970043F0ED /* Arrow-Left.png */,
+				43B1E08C293AE49900DACA08 /* mobile1.png */,
+				43B1E087293AE49900DACA08 /* mobile2.png */,
+				43B1E08B293AE49900DACA08 /* popupBtn.png */,
+				43B1E082293AE49800DACA08 /* radio1Btn.png */,
+				43B1E085293AE49900DACA08 /* radio1Text.png */,
+				43B1E07B293AE49800DACA08 /* radio2Btn.png */,
+				43B1E083293AE49800DACA08 /* radio2Text.png */,
+				D457312E2A1CCD6D0043F0ED /* background_logo.png */,
+				43B1E084293AE49800DACA08 /* radioBtn1.png */,
+				43B1E07C293AE49800DACA08 /* radioBtn2.png */,
+				D45731222A1CADC80043F0ED /* top_background.png */,
+				43B1E081293AE49800DACA08 /* re-register.png */,
+				43B1E07D293AE49800DACA08 /* re-registerName.png */,
+				43B1E07E293AE49800DACA08 /* Register.png */,
+				D45731302A1CCD870043F0ED /* isrf.png */,
+				43B1E08A293AE49900DACA08 /* ReRegister.png */,
+				D42C59332A270BA100308AF5 /* failedWithoutText.png */,
+				43B1E086293AE49900DACA08 /* return.png */,
+				D42C59312A270B7A00308AF5 /* thumbWithoutText.png */,
+				43B1E07F293AE49800DACA08 /* success.png */,
+				43B1E080293AE49800DACA08 /* thumb.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		43B1E0A7293AEEA800DACA08 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				43B1E0A8293AEEBC00DACA08 /* RegisterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		51418A306E1E7CBE064DC6A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B92E91DBB650FA2E8DE7B5 /* Pods_PassportWebView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4399B4892938A25300AA3877 /* PassportWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4399B4982938A25400AA3877 /* Build configuration list for PBXNativeTarget "PassportWebView" */;
+			buildPhases = (
+				60878C63AC31174755B6440E /* [CP] Check Pods Manifest.lock */,
+				4399B4862938A25300AA3877 /* Sources */,
+				4399B4872938A25300AA3877 /* Frameworks */,
+				4399B4882938A25300AA3877 /* Resources */,
+				A3ACF07C5512F6B9D08CF56F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassportWebView;
+			packageProductDependencies = (
+				D466D9182A1E494900C0F9D7 /* CodeScanner */,
+			);
+			productName = PassportWebView;
+			productReference = 4399B48A2938A25300AA3877 /* PassportWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4399B4822938A25300AA3877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4399B4892938A25300AA3877 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4399B4852938A25300AA3877 /* Build configuration list for PBXProject "PassportWebView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4399B4812938A25300AA3877;
+			packageReferences = (
+				D466D9172A1E494900C0F9D7 /* XCRemoteSwiftPackageReference "codeScanner" */,
+			);
+			productRefGroup = 4399B48B2938A25300AA3877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4399B4892938A25300AA3877 /* PassportWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4399B4882938A25300AA3877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B1E099293AE49900DACA08 /* radio1Btn.png in Resources */,
+				43B1E0A3293AE49900DACA08 /* mobile1.png in Resources */,
+				43B1E0A2293AE49900DACA08 /* popupBtn.png in Resources */,
+				43B1E0A4293AE49900DACA08 /* cycle.png in Resources */,
+				43B1E097293AE49900DACA08 /* thumb.png in Resources */,
+				43B1E094293AE49900DACA08 /* re-registerName.png in Resources */,
+				D4BE3886293F4C9200588FF1 /* masterList.pem in Resources */,
+				43B1E0A5293AE49900DACA08 /* checkIdName.png in Resources */,
+				43B1E0A0293AE49900DACA08 /* buttonName.png in Resources */,
+				43B1E096293AE49900DACA08 /* success.png in Resources */,
+				43B1E09E293AE49900DACA08 /* mobile2.png in Resources */,
+				D45731232A1CADC80043F0ED /* top_background.png in Resources */,
+				EC2B733C29505F070012006C /* binaeLogo.png in Resources */,
+				43B1E09B293AE49900DACA08 /* radioBtn1.png in Resources */,
+				43B1E09F293AE49900DACA08 /* greenBtn.png in Resources */,
+				43B1E09A293AE49900DACA08 /* radio2Text.png in Resources */,
+				D42C59322A270B7A00308AF5 /* thumbWithoutText.png in Resources */,
+				4399B4952938A25400AA3877 /* Preview Assets.xcassets in Resources */,
+				43B1E093293AE49900DACA08 /* radioBtn2.png in Resources */,
+				43B1E091293AE49900DACA08 /* closeBtn.png in Resources */,
+				43B1E0A6293AE49900DACA08 /* logo.png in Resources */,
+				D45731312A1CCD870043F0ED /* isrf.png in Resources */,
+				43B1E09C293AE49900DACA08 /* radio1Text.png in Resources */,
+				D42C59342A270BA100308AF5 /* failedWithoutText.png in Resources */,
+				D457312F2A1CCD6D0043F0ED /* background_logo.png in Resources */,
+				43B1E0A1293AE49900DACA08 /* ReRegister.png in Resources */,
+				43B1E098293AE49900DACA08 /* re-register.png in Resources */,
+				D45731252A1CAE970043F0ED /* Arrow-Left.png in Resources */,
+				43B1E095293AE49900DACA08 /* Register.png in Resources */,
+				43B1E092293AE49900DACA08 /* radio2Btn.png in Resources */,
+				43B1E09D293AE49900DACA08 /* return.png in Resources */,
+				4399B4922938A25400AA3877 /* Assets.xcassets in Resources */,
+				43B1E090293AE49900DACA08 /* failed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60878C63AC31174755B6440E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassportWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3ACF07C5512F6B9D08CF56F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassportWebView/Pods-PassportWebView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassportWebView/Pods-PassportWebView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassportWebView/Pods-PassportWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4399B4862938A25300AA3877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4399B4B4293A2F2F00AA3877 /* Router.swift in Sources */,
+				D45731332A1CE5400043F0ED /* EnterPhoneNumberView.swift in Sources */,
+				4399B4B6293A342200AA3877 /* ReRegisterView.swift in Sources */,
+				4399B4D4293A38D800AA3877 /* Reachability.swift in Sources */,
+				4399B4B8293A347200AA3877 /* SuccessView.swift in Sources */,
+				4399B4DD293A391300AA3877 /* SettingsStore.swift in Sources */,
+				4399B4DC293A391300AA3877 /* LocalStorageManager.swift in Sources */,
+				4399B4CE293A386C00AA3877 /* UIAlertControllerExt.swift in Sources */,
+				4399B4DB293A391300AA3877 /* PassportUtils.swift in Sources */,
+				4399B4B2293A2EF200AA3877 /* RoutingView.swift in Sources */,
+				D45731292A1CC5E80043F0ED /* SringExt.swift in Sources */,
+				4399B4C0293A354200AA3877 /* CycleView.swift in Sources */,
+				4399B4902938A25300AA3877 /* ContentView.swift in Sources */,
+				4399B4CF293A386C00AA3877 /* FileManagerExt.swift in Sources */,
+				D466D9162A1E471C00C0F9D7 /* IdentifyView.swift in Sources */,
+				4399B4BA293A349600AA3877 /* FailedView.swift in Sources */,
+				4399B4CD293A386C00AA3877 /* UIViewController+storyboard.swift in Sources */,
+				43B1E0AB293B0B5300DACA08 /* WebView.swift in Sources */,
+				4399B4CC293A386C00AA3877 /* UIDeviceExt.swift in Sources */,
+				4399B4C4293A357900AA3877 /* MainView.swift in Sources */,
+				4399B4CB293A386C00AA3877 /* UIImageExt.swift in Sources */,
+				D45731212A1CAB600043F0ED /* viewDocumentation.swift in Sources */,
+				4399B4D5293A38D800AA3877 /* SceneDelegate.swift in Sources */,
+				43B1E0A9293AEEBC00DACA08 /* RegisterService.swift in Sources */,
+				4399B4BE293A34B600AA3877 /* ThumbView.swift in Sources */,
+				4399B48E2938A25300AA3877 /* PassportWebViewApp.swift in Sources */,
+				4399B4D6293A38D800AA3877 /* AppDelegate.swift in Sources */,
+				4399B4C2293A356C00AA3877 /* WebContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4399B4962938A25400AA3877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4399B4972938A25400AA3877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4399B4992938A25400AA3877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9F50DE987B2362D7614DE1 /* Pods-PassportWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassportWebView/PassportWebView.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassportWebView/Preview Content\"";
+				DEVELOPMENT_TEAM = A3K6C29C5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassportWebView/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "nfc pass";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use for scan";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use for scan";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use for scan";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bina.apps.idndemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4399B49A2938A25400AA3877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44BFDCA085A415AB3C64192 /* Pods-PassportWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassportWebView/PassportWebView.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassportWebView/Preview Content\"";
+				DEVELOPMENT_TEAM = A3K6C29C5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassportWebView/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "nfc pass";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use for scan";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use for scan";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use for scan";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bina.apps.idndemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4399B4852938A25300AA3877 /* Build configuration list for PBXProject "PassportWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4399B4962938A25400AA3877 /* Debug */,
+				4399B4972938A25400AA3877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4399B4982938A25400AA3877 /* Build configuration list for PBXNativeTarget "PassportWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4399B4992938A25400AA3877 /* Debug */,
+				4399B49A2938A25400AA3877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D466D9172A1E494900C0F9D7 /* XCRemoteSwiftPackageReference "codeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/codeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D466D9182A1E494900C0F9D7 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D466D9172A1E494900C0F9D7 /* XCRemoteSwiftPackageReference "codeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4399B4822938A25300AA3877 /* Project object */;
+}
